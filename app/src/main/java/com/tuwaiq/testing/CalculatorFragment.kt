@@ -8,7 +8,7 @@ import android.view.ViewGroup
 
 
 
-class BlankFragment : Fragment() {
+class CalculatorFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,7 +30,7 @@ class BlankFragment : Fragment() {
         return n1/n2
     }
 
-    fun b(n1: Int,n2: Int):Int{
+    fun subtract(n1: Int, n2: Int):Int{
         return n1-n2
     }
 
